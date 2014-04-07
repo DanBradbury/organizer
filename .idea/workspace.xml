@@ -43,11 +43,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63355047" vertical-offset="151" max-vertical-offset="825">
+            <state vertical-scroll-proportion="0.0" vertical-offset="211" max-vertical-offset="855">
               <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unicorn.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="614">
+              <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -77,6 +97,8 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/unicorn.rb" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -193,7 +215,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistoryKey" value="database&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/database.yml&#10;Gemfile&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/Gemfile&#10;routes.rb&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="unicorn&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/unicorn.rb&#10;database&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/database.yml&#10;Gemfile&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/Gemfile&#10;routes.rb&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/routes.rb" />
   </component>
   <component name="RunManager" selected="Rails.Development: organizer">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -498,8 +520,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63355047" vertical-offset="151" max-vertical-offset="825">
+        <state vertical-scroll-proportion="0.0" vertical-offset="211" max-vertical-offset="855">
           <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="614">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
           <folding />
         </state>
       </provider>
