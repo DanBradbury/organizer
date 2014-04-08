@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @site_manager.name %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @site_manager.url %>
+</p>
+
+<p>
+  <strong>Img:</strong>
+  <%= @site_manager.img %>
+</p>
+
+<%= link_to 'Edit', edit_site_manager_path(@site_manager) %> |
+<%= link_to 'Back', site_managers_path %>
