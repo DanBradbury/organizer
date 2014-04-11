@@ -1,4 +1,5 @@
 class SiteManagersController < ApplicationController
+  include SiteManagersHelper
   before_action :set_site_manager, only: [:show, :edit, :update, :destroy]
 
   # GET /site_managers
@@ -29,6 +30,7 @@ class SiteManagersController < ApplicationController
     respond_to do |format|
       if @site_manager.save
         format.html { redirect_to @site_manager, notice: 'Site manager was successfully created.' }
+        format.js {}
         format.json { render action: 'show', status: :created, location: @site_manager }
       else
         format.html { render action: 'new' }
