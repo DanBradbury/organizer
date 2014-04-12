@@ -10,9 +10,9 @@
 <div id="container">
   <div id="content">
     <div id="header">WORKFLOW ORGANIZER</div>
-    <div id="toolbar"><ul><li>Home</li><li><%= link_to 'Manage Sites', new_site_manager_path %></li></ul></div>
+    <div id="toolbar"><ul><li><%= link_to 'Home', root_path %></li><li><%= link_to 'Manage Sites', new_site_manager_path %></li></ul></div>
     <div id="pages"><%= yield %></div>
-    <div id="footer">Content goes here</div>
+    <div id="footer">v0.0 - Dan Bradbury</div>
   </div>
 </body>
 </html>
