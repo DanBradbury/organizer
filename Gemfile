@@ -36,10 +36,7 @@ gem 'rails_12factor', group: :production
 
 gem 'unicorn'
 
-gem 'mechanize'
 gem 'fastimage'
-
-gem 'newrelic_rpm'
 
 gem 'google-search'
 

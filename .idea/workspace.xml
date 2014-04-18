@@ -43,6 +43,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.62469435" vertical-offset="74" max-vertical-offset="945">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/site_managers/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,10 +63,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_site_list.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environment.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_site_list.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/_site_list.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2112676" vertical-offset="0" max-vertical-offset="781">
+            <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
@@ -68,16 +118,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-18.461538" vertical-offset="0" max-vertical-offset="1665">
               <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -108,7 +148,6 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/test/test_helper.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/site_managers.yml" />
         <option value="$PROJECT_DIR$/test/controllers/site_managers_controller_test.rb" />
@@ -121,6 +160,7 @@
         <option value="$PROJECT_DIR$/app/views/site_managers/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/site_managers_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/_site_list.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -207,6 +247,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -331,7 +417,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/routes.rb&#10;test_hel&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/test/test_helper.rb&#10;Gemfile&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/Gemfile&#10;welcome_&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/controllers/welcome_controller.rb&#10;&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/site_managers/_form.html.erb&#10;site_manager_help&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/helpers/site_managers_helper.rb&#10;index.&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/welcome/index.html.erb&#10;site&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/controllers/site_managers_controller.rb&#10;welcome&#9;null&#9;null&#10;application.js&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/assets/javascripts/application.js&#10;edit.&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/site_managers/edit.html.erb&#10;data&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/database.yml&#10;show&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/site_managers/show.html.erb&#10;gemfile&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/Gemfile&#10;application&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/layouts/application.html.erb&#10;form&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/site_managers/_form.html.erb&#10;new&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/site_managers/new.html.erb&#10;sitemanagercontroller&#9;null&#9;null&#10;FORM&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/site_managers/_form.html.erb&#10;rout&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/routes.rb&#10;unicorn&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/unicorn.rb&#10;database&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/database.yml&#10;routes.rb&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="Gemfile&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/Gemfile&#10;routes&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/routes.rb&#10;test_hel&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/test/test_helper.rb&#10;welcome_&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/controllers/welcome_controller.rb&#10;&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/site_managers/_form.html.erb&#10;site_manager_help&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/helpers/site_managers_helper.rb&#10;index.&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/welcome/index.html.erb&#10;site&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/controllers/site_managers_controller.rb&#10;welcome&#9;null&#9;null&#10;application.js&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/assets/javascripts/application.js&#10;edit.&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/site_managers/edit.html.erb&#10;data&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/database.yml&#10;show&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/site_managers/show.html.erb&#10;gemfile&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/Gemfile&#10;application&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/layouts/application.html.erb&#10;form&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/site_managers/_form.html.erb&#10;new&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/site_managers/new.html.erb&#10;sitemanagercontroller&#9;null&#9;null&#10;FORM&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/app/views/site_managers/_form.html.erb&#10;rout&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/routes.rb&#10;unicorn&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/unicorn.rb&#10;database&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/database.yml&#10;routes.rb&#9;FILE&#9;file:///Users/dan/Documents/RoR/secret-bayou-1726/organizer/config/routes.rb" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -747,22 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05507956" vertical-offset="0" max-vertical-offset="817">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="990">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.01783591" vertical-offset="0" max-vertical-offset="841">
@@ -903,8 +973,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/_site_list.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2112676" vertical-offset="0" max-vertical-offset="781">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="818">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="818">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62469435" vertical-offset="74" max-vertical-offset="945">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
