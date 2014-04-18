@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class SiteManagerTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "blank manger is invalid" do
+    manager = SiteManager.new :img => 'na'
+    assert !manager.valid?
+  end
 end

@@ -1,12 +1,28 @@
-require 'rubygems'
-require 'mechanize'
-require 'fastimage'
-module SiteManagersHelper
-  def return_image
-    return 'http://theplanetd.com/images/twitter_icon.png'
-  end
+require 'google-search'
 
+module SiteManagersHelper
   def return_images(str,num)
+    images = []
+    Google::Search::Image.new(:query => str, :image_size => :small).each do |image|
+      images << image.uri if image.width < 200
+      break if images.size == num
+    end
+    images
+  end
+=begin
+#ImageSuckr Too unreliable because of the random(results.size) zzz
+    suckr = ImageSuckr::GoogleSuckr.new
+    images = []
+
+    while( images.size < num )
+      url = suckr.get_image_url({"q" => str,   "imgsz" =>"icon"})
+      #next if FastImage.size(url)[0]
+      images << url
+    end
+    images
+  end
+=end
+=begin
     get_request = 'http://images.google.com/images?q='
     get_request << str
     get_request << '&tbs=isz:ex,iszw:200,iszh:200'
@@ -32,7 +48,7 @@ module SiteManagersHelper
           rescue Exception
             next
           end
-          if(( q.include?('.png') || q.include?('.jpg') ) && q.include?(str))
+          if(q.include?(str))
             break if images.size>=num
             images << l if FastImage.size(l.url) == [200,200]
           end
@@ -41,6 +57,12 @@ module SiteManagersHelper
     end
 
     images
+  end
+=end
+  def parse_site(site_url)
+    host = Addressable::URI.parse(site_url).host
+    host = host.gsub("www.", "").gsub(/(\.[a-z]*)+/, "")
+    host
   end
 
 end

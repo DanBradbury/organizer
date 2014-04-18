@@ -12,7 +12,8 @@
 
 <p>
   <strong>Img:</strong>
-  <%= @site_manager.img %>
+  <%= 'No Image has been selected' if @site_manager.img.nil? %>
+  <%= tag "input", { "type" => "button", "value" => "Select Image", "onclick"=> "imageSearch()", "class" => "find_image", "data-images" => "some_link" } %>
 </p>
 
 <%= link_to 'Edit', edit_site_manager_path(@site_manager) %> |

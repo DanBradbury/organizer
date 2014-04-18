@@ -2,15 +2,15 @@
 <html>
 <head>
   <title>Organizer</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => false %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => false %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 <div id="container">
   <div id="content">
     <div id="header">WORKFLOW ORGANIZER</div>
-    <div id="toolbar"><ul><li><%= link_to 'Home', root_path %></li><li><%= link_to 'Manage Sites', new_site_manager_path %></li></ul></div>
+    <div id="toolbar"><ul><li><%= link_to 'Home', root_path %></li><li><%= link_to 'Add Site to Homepage', new_site_manager_path %></li></ul></div>
     <div id="pages"><%= yield %></div>
     <div id="footer">v0.0 - Dan Bradbury</div>
   </div>

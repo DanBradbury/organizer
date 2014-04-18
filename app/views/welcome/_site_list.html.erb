@@ -1,0 +1,11 @@
+<% @count = 0 %>
+<div class="site_list">
+  <% @sites.each do |f| %>
+
+      <div class="site" id="<%= @count %>">
+        <div class="edit"><%= link_to('Move Left', move_item_path(:id => f, :direction => "left"), remote: true, method: :post) if @count != 0 %> <%= link_to('Move Right', move_item_path(:id => f, :direction => "right"), remote: true, method: :post) if @count != @sites.size-1 %> <%= link_to 'Destroy', f, method: :delete, data: { confirm: 'Are you sure?' } %></div>
+        <a href="<%= f.url %>" target="_blank"><img src="<%= f.img %>" style="border:none; display:block;margin: 50px auto;"></a>
+      </div>
+      <% @count += 1 %>
+  <% end %>
+</div>

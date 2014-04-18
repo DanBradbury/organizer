@@ -41,6 +41,8 @@ GEM
     execjs (2.0.2)
     fastimage (1.6.1)
       addressable (~> 2.3, >= 2.3.5)
+    google-search (1.0.3)
+      json
     hike (1.2.3)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
@@ -147,6 +149,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   fastimage
+  google-search
   jbuilder (~> 1.2)
   jquery-rails
   mechanize

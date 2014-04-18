@@ -3,10 +3,11 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 $(document).ready ->
   $('.search').focus()
+  $('.edit').hide()
   this.request_google = () ->
     query = 'http://google.com/#q='
     query += $('.search').val()
-
     window.open(query)
-
+  this.enableEdit = () ->
+    $('.edit').toggle()
 #window.open("http://google.com?q ")

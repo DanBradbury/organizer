@@ -1,6 +1,21 @@
-<h1>Editing site_manager</h1>
+<h1>Select Icon</h1>
 
 <%= render 'form' %>
 
+
+<strong>Img:</strong>
+<%= 'No Image has been selected' if @site_manager.img.nil? %>
+<%= link_to "Find Images", search_images_path, remote: true %>
+
+<% if @images %>
+<% @i = 1 %>
+<% @images.each do |f| %>
+  <div class="image_selector" data-img-num="<%= @i %>"><img src="<%= f.to_s %>"></div>
+  <% @i += 1 %>
+<% end %>
+<% end %>
+
 <%= link_to 'Show', @site_manager %> |
 <%= link_to 'Back', site_managers_path %>
+
+<div id="images"></div>

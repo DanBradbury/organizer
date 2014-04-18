@@ -25,6 +25,7 @@
     background-color: #CCC;
     width: 80%;
     float: right;
+    height: auto;
 }
 #footer{
     clear: both;
@@ -45,4 +46,8 @@
     font-size:24px;
     text-align:center;
 }
-
+.image_selector{
+    width: 200px;
+    height: 200px;
+    float: left;
+}

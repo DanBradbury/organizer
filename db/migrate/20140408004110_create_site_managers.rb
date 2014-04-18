@@ -4,6 +4,7 @@ class CreateSiteManagers < ActiveRecord::Migration
       t.string :name
       t.string :url
       t.string :img
+      t.integer :order
 
       t.timestamps
     end

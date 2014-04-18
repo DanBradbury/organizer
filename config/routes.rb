@@ -7,6 +7,9 @@ Organizer::Application.routes.draw do
 
   resources :site_managers
 
+  post '/site_managers/find_image' => 'site_managers#find_image'
+  get '/search_images' => 'site_managers#search_images', as: :search_images
+  post '/move_item' => 'site_managers#move_item', as: :move_item
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

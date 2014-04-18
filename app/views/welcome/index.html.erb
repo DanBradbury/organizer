@@ -1,7 +1,6 @@
-Google Search: <form><input type=text  class="search"><input type=submit value="Submit" onclick="request_google()"></form></div>
-
-<div class="site" id="1"><a href="http://www.afreshcup.com" target="_blank"><img src="http://images.all-free-download.com/images/graphicmedium/coffee_cup_clip_art_24787.jpg"></a></div>
-<div class="site" id="2"><a href="https://mail.google.com" target="_blank"><img src="http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/052011/untitled-1_77.png"></a></div>
-<div class="site" id="3"><a href="http://www.trello.com" target="_blank"><img src="http://s3.amazonaws.com/res.sus.io/icons/2/original/:normalized_photo_file_name?1382540892"></a></div>
-<div class="site" id="4"><a href="https://github.com/" target="_blank"><img src="http://www.piskelapp.com/static/resources/github_logo.png"></a></div>
-<div class="site" id="5"><a href="http://www.omniref.com/" target="_blank"><img src="http://i.imgur.com/ab6Us3D.png"></a></div>
+<p id="notice"><%= notice %></p>
+Google Search: <form><input type=text  class="search"><input type=submit value="Submit" onclick="request_google()"></form>
+<%= render "site_list" %>
+<p>
+<%= tag "input", { "type" => "button", "value" => "Edit Frontpage", "onclick"=> "enableEdit()" } %>
+</p>

@@ -41,6 +41,8 @@ gem 'fastimage'
 
 gem 'newrelic_rpm'
 
+gem 'google-search'
+
 ruby "2.1.1"
 
 # Use ActiveModel has_secure_password

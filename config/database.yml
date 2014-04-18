@@ -16,6 +16,7 @@
 #
 development:
   adapter: postgresql
+  reconnect: true
   encoding: unicode
   database: organizer_development
   pool: 5
@@ -51,6 +52,7 @@ test:
 
 production:
   adapter: postgresql
+  reconnect: true
   encoding: unicode
   database: organizer_production
   pool: 5
