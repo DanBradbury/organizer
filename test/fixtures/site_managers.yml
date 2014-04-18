@@ -3,11 +3,11 @@
 one:
   name: twitter
   url: https://twitter.com/
-  img: MyString
+  img: doesn't much matter
   order: 0
 
 two:
   name: google
   url: https://www.google.com
-  img: MyString
+  img: won't be validating these here
   order: 1
