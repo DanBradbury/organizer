@@ -11,16 +11,20 @@
     </div>
   <% end %>
 
+
   <div class="field">
-    <%= f.label :url %><br>
+    <%= f.label :url %>
     <%= f.text_field :url %>
   </div>
+  <% if @site_manager.img %>
+    Current Image: <img src="<%= @site_manager.img %>">
+  <% end %>
   <% if !@site_manager.new_record? %>
       <div class="field">
         <%= f.hidden_field :img %>
       </div>
   <% end %>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Save"%>
   </div>
 <% end %>

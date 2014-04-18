@@ -5,12 +5,7 @@ class SiteManagersControllerTest < ActionController::TestCase
     @site_manager = site_managers(:one)
   end
 
-  test "should get index" do
-    get :index
-    assert_response :success
-    assert_not_nil assigns(:site_managers)
-  end
-
+  #thanks scaffolding
   test "should get new" do
     get :new
     assert_response :success
@@ -22,11 +17,6 @@ class SiteManagersControllerTest < ActionController::TestCase
     end
 
     assert_redirected_to edit_site_manager_path(assigns(:site_manager)) #Link to edit path to allow user image selection
-  end
-
-  test "should show site_manager" do
-    get :show, id: @site_manager
-    assert_response :success
   end
 
   test "should get edit" do

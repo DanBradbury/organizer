@@ -12,6 +12,7 @@
  *= require_tree .
  */
 
+/* Should be moved to a seperate file but this is how I design a site (poorly :/) */
 #toolbar{
     background-color: #999;
     width: 20%;

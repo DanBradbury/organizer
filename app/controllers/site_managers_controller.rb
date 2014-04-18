@@ -2,29 +2,15 @@ class SiteManagersController < ApplicationController
   include SiteManagersHelper
   before_action :set_site_manager, only: [:show, :edit, :update, :destroy]
 
-  # GET /site_managers
-  # GET /site_managers.json
-  def index
-    @site_managers = SiteManager.all
-  end
 
-  # GET /site_managers/1
-  # GET /site_managers/1.json
-  def show
-  end
-
-  # GET /site_managers/new
   def new
     @site_manager = SiteManager.new
   end
 
-  # GET /site_managers/1/edit
   def edit
     $site = parse_site(@site_manager.url)
   end
 
-  # POST /site_managers
-  # POST /site_managers.json
   def create
     @site_manager = SiteManager.new(site_manager_params)
     @site_manager.order = SiteManager.count(:all)
@@ -41,12 +27,10 @@ class SiteManagersController < ApplicationController
     end
   end
 
-  # PATCH/PUT /site_managers/1
-  # PATCH/PUT /site_managers/1.json
   def update
     respond_to do |format|
       if @site_manager.update(site_manager_params)
-        format.html { redirect_to root_path, notice: 'Site was successfully added..' }
+        format.html { redirect_to root_path, notice: 'Site was successfully updated' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
@@ -55,8 +39,6 @@ class SiteManagersController < ApplicationController
     end
   end
 
-  # DELETE /site_managers/1
-  # DELETE /site_managers/1.json
   def destroy
     @site_manager.destroy
     reset_order
@@ -73,17 +55,6 @@ class SiteManagersController < ApplicationController
       f.order = i
       f.save
       i += 1
-    end
-  end
-
-  def find_image
-    num1 = params["num1"].to_i
-    num2 = params["num2"].to_i
-    # Do something with input parameter and respond as JSON with the output
-    result = num1 + num2
-
-    respond_to do |format|
-      format.json {render :json => {:result => result}}
     end
   end
 

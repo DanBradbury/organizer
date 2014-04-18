@@ -9,20 +9,15 @@ module SiteManagersHelper
     end
     images
   end
-=begin
-#ImageSuckr Too unreliable because of the random(results.size) zzz
-    suckr = ImageSuckr::GoogleSuckr.new
-    images = []
 
-    while( images.size < num )
-      url = suckr.get_image_url({"q" => str,   "imgsz" =>"icon"})
-      #next if FastImage.size(url)[0]
-      images << url
-    end
-    images
+  def parse_site(site_url)
+    host = Addressable::URI.parse(site_url).host
+    host = host.gsub("www.", "").gsub(/(\.[a-z]*)+/, "")
+    host
   end
-=end
+
 =begin
+First Mechanize google crawler before I got smart and googled for the search api gem O_o
     get_request = 'http://images.google.com/images?q='
     get_request << str
     get_request << '&tbs=isz:ex,iszw:200,iszh:200'
@@ -59,10 +54,20 @@ module SiteManagersHelper
     images
   end
 =end
-  def parse_site(site_url)
-    host = Addressable::URI.parse(site_url).host
-    host = host.gsub("www.", "").gsub(/(\.[a-z]*)+/, "")
-    host
+
+=begin
+Had a funny name so I gave it a shot and was severely disappointed with the image selection options
+#ImageSuckr Too unreliable because of the random(results.size) zzz
+    suckr = ImageSuckr::GoogleSuckr.new
+    images = []
+
+    while( images.size < num )
+      url = suckr.get_image_url({"q" => str,   "imgsz" =>"icon"})
+      #next if FastImage.size(url)[0]
+      images << url
+    end
+    images
   end
+=end
 
 end

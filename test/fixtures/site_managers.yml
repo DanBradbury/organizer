@@ -4,8 +4,10 @@ one:
   name: twitter
   url: https://twitter.com/
   img: MyString
+  order: 0
 
 two:
   name: google
   url: https://www.google.com
   img: MyString
+  order: 1

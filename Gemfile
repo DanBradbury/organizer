@@ -43,6 +43,8 @@ gem 'newrelic_rpm'
 
 gem 'google-search'
 
+gem 'simplecov', :require => false, :group => :test
+
 ruby "2.1.1"
 
 # Use ActiveModel has_secure_password
