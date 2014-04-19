@@ -1,4 +1,5 @@
 ###Workflow Organizer Application
+![](http://i.imgur.com/F8rWLHt.gif)
 Simple RoR application to manage a front page with helpful links to use during the work day. Meant to run on heroku with 1 web dyno so there is no cost on the hoster. 
 
 Current status is prototype so the utility is minimal and very crude. Feature incomplete but the core should is there. 
